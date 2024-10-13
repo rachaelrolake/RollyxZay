@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Savvy Meal</title>
+</head>
+
+<body>
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        
+        <div class="logo ms-4"><img src="images/image.png" alt="logo"></div>
+
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" aria-current="page" href="#about">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Grocery Meal Generator</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">AI-Powered Recipe Suggestions</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Meal Planner</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Leftover Magic Tool</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sustainability Features</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Personalized Nutrition</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+
+            <form class="d-flex w-auto">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="search">
+                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+            </form>
+
+            <a href="#" class="btn btn-join ms-3 d-lg-inline d-block">Join Free</a>
+            <a href="#" class="btn btn-outline-dark btn-signin ms-3 d-lg-inline d-block">Sign In</a>
+        </div>
+    </div>
+</nav>
+
+  <div class="sticky-background">
+
+    <div class="overLaying"></div>
+    <div class="overlay-text text-wrap" id="about">
+      <div class="break" style="width: 70%;">
+        <h1 class="meals" style="font-size: 75px; text-shadow: 0 4px 2px rgba(0, 0, 0, 0.486);">Meal Planning Simplified</h1>
+        <p style="font-size: 30px; text-shadow: 0 4px 2px rgba(0, 0, 0, 0.5);">Nourish your body and say healthy with our sustainable eats.</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container" style="margin: 67px 2px;">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="features-text">Features</h1>
+    </div>
+  </div>
+</div>
+
+
+  <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="card">
+            <div class="img-wrapper"><img src="./images/mealsImages/pexels-rdne-5847969.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">AI-Powered Recipe Suggestion</h5>
+              <p class="card-text">Utilize AI algorithms to suggest meal plans and recipes based on user preferences, dietary restrictions and available ingredients. </p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="card">
+            <div class="img-wrapper"><img src="./images/mealsImages/Egg sauce and Yam.jpeg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Grocery List Generation</h5>
+              <p class="card-text">Automatically generates grocery lists based on meal plans. Allows users to add, remove and modify items in the grocery list.</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="card">
+            <div class="img-wrapper"><img src="./images/mealsImages/plantain.jpeg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Leftover Magic Tool</h5>
+              <p class="card-text">Suggest recipes based on ingredients users already have at home. Provide tips and suggestions for storing and using leftovers.</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+
+
+      </div><div class="carousel-item">
+        <div class="card">
+            <div class="img-wrapper"><img src="./images/mealsImages/Creamy Delicatessen Fruit Salad.jpeg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Sustainability features</h5>
+              <p class="card-text">Educate users about the environmental impact of food choices. Provide information on sustainable food practices and certifications</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+
+
+      </div><div class="carousel-item">
+        <div class="card">
+            <div class="img-wrapper"><img src="./images/mealsImages/Easy Homemade Beefaroni (Kick the Can).jpeg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Personalized Nutrition</h5>
+              <p class="card-text">Offer personalized nutritional information for each meal plan. Users can set dietary goals and receive tailored recommendations</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+      </div>
+    </div> 
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="app.js"></script>
+  <script src="bootstrap5/js/bootstrap.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+.navbar {
+    background: white;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;    
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.logo img {
+    width: 70px;
+    height: 70px
+}
+
+
+.nav-items {
+    color: #333;
+}
+
+.dropdown-menu {
+    background: lawngreen;
+}
+
+.form-control {
+    border: 1.5px solid #333;
+}
+
+.input-group-text {
+    font-size: 1.2rem;
+    background-color: #fff;
+     border: 1px solid #333;
+}
+
+.mx-3 {
+    margin-left: 0 !important;
+}
+
+/* .join-in {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+} */
+
+
+.btn-outline-light {
+    color: #333;
+    border-color: #333;
+}
+
+.btn-outline-light:hover {
+    color: #333;
+    border-color: darkgreen;
+}
+
+
+.btn-join {
+    background-color: rgb(12, 112, 12); 
+    color: white;
+  }
+  .btn-signin {
+    color: black;
+    border: 2px solid black; 
+  }
+
+
+  .btn-join {
+      background-color: darkgreen; 
+      color: white;
+    }
+
+    .btn-join:hover {
+        background-color: green !important;
+        color: #fff;
+    }
+
+    .btn-signin {
+      color: black;
+      border: 2px solid black;
+    }
+
+
+    @media (max-width: 992px) {
+      /* .navbar .form-control,
+      .navbar .input-group-text, */
+      .navbar .btn-join,
+      .navbar .btn-signin {
+        max-width: 50%; 
+        width: 50%;
+        margin: 0 auto; 
+        display: block;
+      }
+
+      .navbar .d-flex {
+        flex-direction: column;
+        align-items: center;
+      }
+      .navbar .btn-join, .navbar .btn-signin {
+        margin-top: 10px; 
+      }
+    }
+  
+    /*features text*/
+
+    .features-text {
+        font-size: 68px; 
+        color: black; 
+        text-shadow: 0 4px 2px rgba(0, 0, 0, 0.527); 
+        font-family: serif;
+      }
+
+/*sticky bg*/
+
+.sticky-background {
+    background-image: url(images/mealsImages/backg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    position: relative;
+}
+
+.overLaying {
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    background: #0000006b;
+}
+
+.overlay-text {
+display: flex;
+justify-content: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'; color: #fff;
+font-size: 1.3rem;
+padding-top: 10%;
+z-index: 1;
+position: relative;
+}
+
+@media screen and (max-width : 576px) {
+    .break {
+        width: 40%;
+    }
+
+    .meals {
+        font-size: 45px;
+    }
+}
+
+
+p {
+    margin-left: 0;
+}
+
+
+
+
+
+/*features section*/
+
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.card  {
+    margin: 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, .18);
+    border-radius: 0;
+}
+
+.img-wrapper {
+    max-width: 100%;
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 6vh;
+    height: 6vh;
+    background-color: #6d6969;
+    border: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    opacity: .8;
+}
+
+
+@media screen and (min-width : 576px) {
+    .carousel-inner {
+        display: flex;
+    }
+
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+
+    .img-wrapper {
+        height: 24vw;
+    }
+    
+}
